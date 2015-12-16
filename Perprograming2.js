@@ -19,21 +19,11 @@ $(document).ready(function(){
 	    
 	}
 
-
-
-function buttonClick() {
-	$('#container').append('<div> <p>' + cohortArray[cohortArray.length-1] + '</p> </div>');
-	$('#container').children().last().append("<button class = 'remove'> Remove </button>");
-    revealed.push(cohortArray.pop());
-    
-	
-}
-//Why is it that We have two buttonClick's but when I try to combine them it doesn't work properly?
 var counter = 0;
 
 function buttonClick() {
-	$("#" + counter).slideDown(); 
-	counter++;
+    $("#" + counter).slideDown(); 
+    counter++;	
 }
 
 function buttonRemove (){
