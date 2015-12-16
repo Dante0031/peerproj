@@ -12,8 +12,12 @@ $(document).ready(function(){
 	
 
 	for (var i = 0; i < cohortArray.length;i++) {
+<<<<<<< HEAD
 		//$('#container').append('<div id=' + i + '> <p>' + cohortArray[i] + '</p> </div>');
 		$('#container').append('<div class = "stylish" id=' + i + '> <p>' + cohortArray[i] + '</p> </div>');
+=======
+		$('#container').append('<div id=' + i + '> <p>' + cohortArray[i] + '</p> </div>');
+>>>>>>> 67e425298e52ade5fac9f8bcaa604a09eef70907
 		$('#container').children().last().hide();
 		$('#container').children().last().append("<button class = 'remove'> Remove </button>");
 	    
@@ -90,4 +94,7 @@ function buttonReload(){
 
 
 // });
+<<<<<<< HEAD
 
+=======
+>>>>>>> 67e425298e52ade5fac9f8bcaa604a09eef70907
